@@ -26,6 +26,5 @@ std::string bytesToHexString(const ByteArray& bytes) {
 }
 
 ByteArray commit(const ByteArray& data) {
-    // 简单的承诺函数：直接对数据进行哈希
     return sha256(data);
 }
